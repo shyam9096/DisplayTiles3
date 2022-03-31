@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "displaytiles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/displaytiles/DisplaytilesWebPart.js",
+          "manifest": "./src/webparts/displaytiles/DisplaytilesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DisplaytilesWebPartStrings": "lib/webparts/displaytiles/loc/{locale}.js"
+  }
+}
